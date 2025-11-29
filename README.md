@@ -12,7 +12,7 @@ Este proyecto implementa un **Motor de Priorización de Riesgos** que ingesta da
 
 
 
-## 🧠 Lógica de Negocio y Metodología de Riesgo
+## Lógica de Negocio y Metodología de Riesgo
 
 Este motor implementa una estrategia de **Risk-Based Vulnerability Management (RBVM)**. A diferencia de los escaneos tradicionales que solo reportan la severidad técnica (CVSS Base Score), este sistema calcula un **"Risk Score Contextual"**.
 
@@ -95,7 +95,7 @@ El proyecto sigue un diseño de pipeline de datos secuencial sin dependencias ex
 
 
 ---
-## 👤 Author Identity
+##  Author Identity
 
 ```json
 {
