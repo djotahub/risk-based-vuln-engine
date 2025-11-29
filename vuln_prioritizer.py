@@ -126,7 +126,6 @@ def export_to_csv(legit_vulns, rogues, filename):
     print(f"\n[*] Exporting data to Excel format ({filename})...")
     
     try:
-        # 'w' es modo escritura, 'newline' evita lineas en blanco en Windows
         with open(filename, mode='w', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
 
@@ -175,4 +174,5 @@ if __name__ == "__main__":
         export_to_csv(legit_vulns, intruders, EXPORT_FILE)
             
     else:
+
         print("\n[X] CRITICAL ERROR: Missing data inputs.")
