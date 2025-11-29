@@ -1,0 +1,122 @@
+{
+    "192.168.1.1": {
+        "hostname": "FW-PERIMETRO-01",
+        "descripcion": "Firewall Perimetral Principal",
+        "criticidad": "ALTA",
+        "propietario": "Seguridad de Red"
+    },
+    "192.168.1.5": {
+        "hostname": "SW-CORE-01",
+        "descripcion": "Switch Core del Data Center",
+        "criticidad": "ALTA",
+        "propietario": "Infraestructura"
+    },
+    "192.168.1.10": {
+        "hostname": "SRV-DC-01",
+        "descripcion": "Controlador de Dominio Principal (Active Directory)",
+        "criticidad": "ALTA",
+        "propietario": "Infraestructura"
+    },
+    "192.168.1.11": {
+        "hostname": "SRV-DC-02",
+        "descripcion": "Controlador de Dominio Secundario",
+        "criticidad": "ALTA",
+        "propietario": "Infraestructura"
+    },
+    "192.168.1.20": {
+        "hostname": "DB-PROD-SQL",
+        "descripcion": "Cluster SQL Server Producción (Datos Financieros)",
+        "criticidad": "ALTA",
+        "propietario": "Equipo DBA"
+    },
+    "192.168.1.25": {
+        "hostname": "WEB-ECOM-FRONT",
+        "descripcion": "Servidor Web E-commerce (Público)",
+        "criticidad": "ALTA",
+        "propietario": "Equipo DevOps"
+    },
+    "192.168.1.30": {
+        "hostname": "SRV-MAIL-EXCH",
+        "descripcion": "Servidor de Correo Exchange",
+        "criticidad": "ALTA",
+        "propietario": "Infraestructura"
+    },
+    "192.168.1.40": {
+        "hostname": "APP-CRM-INT",
+        "descripcion": "Sistema CRM Interno",
+        "criticidad": "MEDIA",
+        "propietario": "Desarrollo Interno"
+    },
+    "192.168.1.45": {
+        "hostname": "SRV-FILE-SHARE",
+        "descripcion": "Servidor de Archivos Compartidos (DFS)",
+        "criticidad": "MEDIA",
+        "propietario": "Infraestructura"
+    },
+    "192.168.1.50": {
+        "hostname": "SRV-BACKUP-01",
+        "descripcion": "Servidor de Copias de Seguridad",
+        "criticidad": "MEDIA",
+        "propietario": "Operaciones TI"
+    },
+    "192.168.1.60": {
+        "hostname": "WKS-DEV-LEAD",
+        "descripcion": "Workstation Líder de Desarrollo (Acceso a Prod)",
+        "criticidad": "ALTA",
+        "propietario": "Desarrollo"
+    },
+    "192.168.1.100": {
+        "hostname": "WKS-FINANCE-01",
+        "descripcion": "PC Analista Financiero",
+        "criticidad": "MEDIA",
+        "propietario": "Soporte TI"
+    },
+    "192.168.1.101": {
+        "hostname": "WKS-HR-RECRUIT",
+        "descripcion": "Laptop Reclutamiento RRHH",
+        "criticidad": "MEDIA",
+        "propietario": "Soporte TI"
+    },
+    "192.168.1.110": {
+        "hostname": "WKS-RECEPCION",
+        "descripcion": "PC Recepción Lobby",
+        "criticidad": "BAJA",
+        "propietario": "Soporte TI"
+    },
+    "192.168.1.150": {
+        "hostname": "PRN-MFP-MAIN",
+        "descripcion": "Impresora Multifunción Pasillo Central",
+        "criticidad": "BAJA",
+        "propietario": "Servicios Generales"
+    },
+    "192.168.1.200": {
+        "hostname": "IOT-CAM-ENTRADA",
+        "descripcion": "Cámara IP Entrada Principal",
+        "criticidad": "MEDIA",
+        "propietario": "Seguridad Física"
+    },
+    "192.168.1.201": {
+        "hostname": "IOT-SENSOR-TEMP",
+        "descripcion": "Sensor Temperatura Data Center",
+        "criticidad": "MEDIA",
+        "propietario": "Mantenimiento"
+    },
+    "192.168.1.210": {
+        "hostname": "LAB-TEST-VM01",
+        "descripcion": "Máquina Virtual de Pruebas (Sandbox)",
+        "criticidad": "BAJA",
+        "propietario": "QA Team"
+    },
+    "192.168.1.220": {
+        "hostname": "WIFI-GUEST-AP",
+        "descripcion": "Access Point Red Invitados",
+        "criticidad": "BAJA",
+        "propietario": "Redes"
+    },
+    "192.168.1.250": {
+        "hostname": "TV-COMEDOR",
+        "descripcion": "Smart TV Menú Comedor",
+        "criticidad": "BAJA",
+        "propietario": "RRHH"
+    }
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<nmaprun>
+    <host> <address addr="192.168.1.10" addrtype="ipv4"/>
+        <vulnerability name="Zerologon (Privilege Escalation)" cvss="10.0"/>
+    </host>
+
+    <host> <address addr="192.168.1.1" addrtype="ipv4"/>
+        <vulnerability name="VPN Buffer Overflow" cvss="9.8"/>
+    </host>
+
+    <host> <address addr="192.168.1.20" addrtype="ipv4"/>
+        <vulnerability name="SQL Injection (Unauthenticated)" cvss="9.0"/>
+    </host>
+
+    <host> <address addr="192.168.1.25" addrtype="ipv4"/>
+        <vulnerability name="Apache Struts RCE" cvss="8.8"/>
+    </host>
+    
+    <host> <address addr="192.168.1.30" addrtype="ipv4"/>
+        <vulnerability name="ProxyShell Vulnerability" cvss="9.1"/>
+    </host>
+
+    <host> <address addr="192.168.1.99" addrtype="ipv4"/>
+        <vulnerability name="WannaCry Ransomware Infection" cvss="10.0"/>
+    </host>
+
+    <host> <address addr="10.0.0.50" addrtype="ipv4"/>
+        <vulnerability name="Default SSH Credentials (pi/raspberry)" cvss="9.8"/>
+    </host>
+
+    <host> <address addr="172.16.10.5" addrtype="ipv4"/>
+        <vulnerability name="Exposed Web Server" cvss="7.5"/>
+    </host>
+
+    <host> <address addr="192.168.1.150" addrtype="ipv4"/>
+        <vulnerability name="HP Printer Default Admin Password" cvss="9.8"/>
+    </host>
+
+    <host> <address addr="192.168.1.250" addrtype="ipv4"/>
+        <vulnerability name="Outdated SmartTV Firmware" cvss="7.0"/>
+    </host>
+
+    <host> <address addr="192.168.1.210" addrtype="ipv4"/>
+        <vulnerability name="Vulnerable by Design App" cvss="9.0"/>
+    </host>
+
+    <host> <address addr="192.168.1.40" addrtype="ipv4"/>
+        <vulnerability name="Cross-Site Scripting (XSS)" cvss="6.1"/>
+    </host>
+
+    <host> <address addr="192.168.1.200" addrtype="ipv4"/>
+        <vulnerability name="RTSP Stream Exposure" cvss="7.5"/>
+    </host>
+
+    <host> <address addr="192.168.1.100" addrtype="ipv4"/>
+        <vulnerability name="MS Office Macro Execution" cvss="7.8"/>
+    </host>
+
+    <host> <address addr="192.168.1.101" addrtype="ipv4"/>
+        <vulnerability name="Browser Outdated Version" cvss="6.5"/>
+    </host>
+
+    <host> <address addr="192.168.1.45" addrtype="ipv4"/>
+        <vulnerability name="SMB Signing Not Required" cvss="5.0"/>
+    </host>
+
+    <host> <address addr="192.168.1.201" addrtype="ipv4"/>
+        <vulnerability name="Weak Encryption Key" cvss="4.3"/>
+    </host>
+
+    <host> <address addr="192.168.1.5" addrtype="ipv4"/>
+        <vulnerability name="SNMP Public Community" cvss="2.0"/>
+    </host>
+
+    <host> <address addr="192.168.1.50" addrtype="ipv4"/>
+        <vulnerability name="Information Disclosure" cvss="3.5"/>
+    </host>
+
+    <host> <address addr="192.168.1.110" addrtype="ipv4"/>
+        <vulnerability name="Unpatched PDF Reader" cvss="4.0"/>
+    </host>
+
+</nmaprun>
